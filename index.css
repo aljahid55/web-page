@@ -1,0 +1,139 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-image: url('https://actybe.com/wp-content/uploads/2023/06/mt-sample-background.jpg');
+    margin:auto;
+    padding:auto;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+body{
+    border-style:groove;
+    border-radius: 20px;
+    background-color: rgba(7, 26, 19, 0.123);
+}
+div{
+    border-radius: 30%;
+    border: 10cqick solid hsl(0, 92%, 47%);
+    padding:20px;
+    box-shadow: 5px 10px 15px 20px#1301014d;
+    margin-top: 200px;
+    width: 500px;
+    height: 600px;
+     animation-duration: 4s;
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: linear; */
+    /* animation-name: rotate; */
+}
+h1{
+    color: hsl(91, 71%, 50%);
+    text-shadow: 5px 5px 3px #332302;
+    font-size: 25px;
+    margin-top: -15px;
+}
+h1:hover{
+    color: hsl(66, 100%, 50%);
+    text-shadow: 5px 5px 3px #332302;
+    font-size: 30px;
+    margin-top: -15px;
+}
+p:hover{
+    color: hsla(204, 78%, 20%, 0.363);
+    text-shadow: 5px 5px 3px #332302;
+    font-size: 30px;
+    margin-top: -15px;
+}
+p{
+    color: hsl(0, 72%, 72%);
+    text-shadow: 5px 5px 3px #332302;
+    margin-top: 0%;
+}
+.nema {
+    font-size: 20px;
+    color: hsl(66, 100%, 50%);
+    text-shadow: 5px 5px 3px #332302;
+    margin-left: -50%;
+    margin-top: 5px;
+}
+footer{
+    text-shadow: 5px 5px 3px #332302;
+}
+button{
+    background-color: hsl(0, 92%, 47%);
+    color: rgb(55, 231, 39);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+ ul li li li li {
+    /* display: inline; */
+    margin: 20px;
+    font-size: 15px;
+    padding:5px;
+    color: hsl(0, 92%, 47%);
+    text-shadow: 5px 5px 3px #332302;
+    /* position: absolute; */
+}
+.page{
+    margin-top: -15%;
+    margin-right: -50%;
+
+}
+button:hover{
+    background-color: hsl(123, 76%, 61%);
+    color: rgb(241, 12, 62);
+}
+li:hover{
+    background-color: #da9b1f;
+    color: hsl(347, 76%, 61%);
+    text-shadow: 5px 5px 3px #da9b1f;
+    font-size: 20px;
+    /* cursor: pointer; */
+    /* font-weight: bold; */
+    border-radius: 20px;
+    padding: 10px;
+    /* animation-timing-function: linear; */
+}
+@keyframes rotate{
+    0%{
+        background-color: rgb(240, 70, 70);
+    }
+    25%{
+        background-color: rgb(240, 240, 70);
+    }
+    50%{
+        background-color: rgb(70, 240, 70);
+    }
+    100%{
+        background-color: rgb(240, 70, 70);
+    }
+}
+div:hover{
+    background-color: hwb(241 12% 45% / 0);
+    color: rgb(226, 14, 67);
+    box-shadow: 5px 10px 15px 20px#363035;
+    border: 10cqick solid hsl(34, 76%, 61%);
+    border-radius: 10%;
+}
+#about:hover{
+    background-color: hsl(231, 76%, 61%);
+    color:red;
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 5px;
+
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-iteration-count: even;
+    /* animation-timing-function: linear; */
+    animation-name: rotate;
+    animation-duration: 5s;
+
+}
